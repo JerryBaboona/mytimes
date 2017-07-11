@@ -54,6 +54,7 @@ div {
   top: 80px;
   min-height: 800px;
   border: 1px solid black;
+  font-family: Georgia;
 }
 
 .column {
@@ -72,10 +73,44 @@ div {
   width: 240px;
 }
 
-div.article {
+#main {
+  font-size: 40px;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.column div.article {
   border: 1px solid black;
+  font-size: 17px;
 }
 
 .column span.sub-head {
   border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+/*Image backgrounds*/
+div.back-img {
+  display: flex;
+  background-repeat: repeat-x;
+  height: 300px;
+  justify-content: center;
+}
+
+#tuna {
+  background-image: url("./images/img-tuna.png")
+}
+
+#earth {
+  background-image: url("./images/img-earth.png")
+}
+
+#camera {
+  background-image: url("./images/img-camera.png")
+}
+
+#cat {
+  background-image: url("./images/img-cat.png")
 }
