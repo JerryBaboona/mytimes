@@ -1,3 +1,7 @@
+body {
+  margin: 0px;
+}
+
 /*Header styling*/
 header {
   display: flex;
@@ -41,23 +45,22 @@ a {
   color: black;
 }
 
-/*Content*/
-div {
-  border: 1px solid black;
-}
+/*Main content container*/
 
 .main-container {
   display: flex;
   justify-content: space-around;
-  position: relative;
   /*Push content below fixed header*/
+  position: relative;
   top: 80px;
   min-height: 800px;
-  border: 1px solid black;
   font-family: Georgia;
 }
 
+/*Column specs*/
 .column {
+  display: flex;
+  flex-flow: column wrap;
   margin: 50px 30px;
 }
 
@@ -73,22 +76,36 @@ div {
   width: 240px;
 }
 
+/*Main story*/
 #main {
   font-size: 40px;
   justify-content: flex-start;
   text-align: left;
 }
 
+/*Articles and sub-headings*/
 .column div.article {
-  border: 1px solid black;
+  display: inline-flex;
+  flex-flow: column wrap;
   font-size: 17px;
 }
 
 .column span.sub-head {
-  border: 1px solid black;
   text-align: center;
   font-size: 30px;
   color: white;
+}
+
+/*Row content within column*/
+.row {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.row div.article {
+  width: 300px;
 }
 
 /*Image backgrounds*/
