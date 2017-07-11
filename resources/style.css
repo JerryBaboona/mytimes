@@ -153,3 +153,30 @@ li {
   border-bottom: 1px solid black;
   padding: 12px;
 }
+
+/*Footer styling*/
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: MediumAquamarine;
+  min-height: 200px;
+  /*Push content below fixed header*/
+  position: relative;
+  top: 80px;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+}
+
+footer span {
+  margin: auto 20px;
+}
+
+.footer-myt {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
