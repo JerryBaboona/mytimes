@@ -45,6 +45,11 @@ a {
   color: black;
 }
 
+h4 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
 /*Main content container*/
 
 .main-container {
@@ -130,4 +135,21 @@ div.back-img {
 
 #cat {
   background-image: url("./images/img-cat.png")
+}
+
+/*News bites styling*/
+ul {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  /*Removes text indent and bullet points*/
+  padding: 0;
+  list-style-type: none;
+  list-style-position: outside;
+}
+
+li {
+  border-bottom: 1px solid black;
+  padding: 12px;
 }
